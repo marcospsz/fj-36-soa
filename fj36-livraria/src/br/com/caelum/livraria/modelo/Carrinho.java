@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import br.com.caelum.estoque.rmi.EstoqueRMI;
+import br.com.caelum.estoque.rmi.ItemEstoque;
 import br.com.caelum.livraria.jms.EnviadorMensagemJms;
 import br.com.caelum.livraria.rest.ClienteRest;
 
@@ -38,7 +39,18 @@ public class Carrinho implements Serializable {
 	
 	public void verificarDisponibilidadeDosItensComRmi() throws	Exception {
 						
-		EstoqueRmi estoque = (EstoqueRmi) Naming.lookup("rmi://localhost:1099/estoque");		
+		EstoqueRMI estoque = (EstoqueRMI) Naming.lookup("rmi://localhost:1099/estoque");
+		
+		for (ItemCompra itemCompra: this.itensDeCompra){
+			
+			System.out.println(itemCompra.getTitulo());
+			
+			ItemEstoque itemEstoque = estoque.getItemEstoque(itemCompra.getCodigo()) ;
+			
+			itemCompra.setQuantidadeNoEstoque(itemEstoque.getQuantidade());
+			
+						
+		}
 		
 		
 	}
