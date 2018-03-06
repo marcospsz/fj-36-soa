@@ -1,0 +1,25 @@
+package br.com.caelum.estoque.main;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+import javax.imageio.spi.IIOServiceProvider;
+
+public class TestaLeituraDeObjetos {
+
+	public static void main(String[] args) {
+		
+		try(ObjectInputStream ois = new ObjectInputStream(
+				                  new FileInputStream("itens.bin"))){
+			
+			List<ItenEstoque>itens = (List<ItemEstoque>) ois.readObject();
+			
+			
+			
+			
+			
+		}
+
+	}
+
+}

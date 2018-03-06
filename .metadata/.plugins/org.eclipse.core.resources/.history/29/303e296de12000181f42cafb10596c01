@@ -1,0 +1,14 @@
+package br.com.caelum.estoque.cliente;
+
+import java.rmi.Naming;
+
+public class ClienteRMI {
+	
+	public static void main(String[] args) throws Exception{
+		
+		EstoqueRMI estoque = (EstoqueRMI) Naming.lookup("rmi://localhosto:1099/estoque"); 
+		
+		
+	}
+
+}

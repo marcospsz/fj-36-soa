@@ -1,0 +1,7 @@
+package br.com.caelum.estoque.rmi;
+
+public class ItemEstoque {
+	
+	
+
+}

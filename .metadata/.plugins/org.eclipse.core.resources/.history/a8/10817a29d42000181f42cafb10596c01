@@ -1,0 +1,11 @@
+package br.com.caelum.estoque.main;
+
+public class TestaLeituraDeObjetos {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}
