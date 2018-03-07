@@ -1,0 +1,20 @@
+2018-03-06 21:42:13,203 INFO  [DefaultSoapUICore] initialized soapui-settings from [/home/soa7503/workspace/soapui-4.6.0/soapui-settings.xml]
+2018-03-06 21:42:14,683 INFO  [SoapUI] Used java version: 1.8.0_161
+2018-03-06 21:43:23,833 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2018-03-06 21:43:23,859 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2018-03-06 21:43:23,862 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2018-03-06 21:43:23,864 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2018-03-06 21:43:23,865 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2018-03-06 21:43:23,866 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2018-03-06 21:43:23,867 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2018-03-06 21:43:23,870 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2018-03-06 21:43:23,872 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2018-03-06 21:43:23,875 INFO  [SchemaUtils] Added default schema from file:/home/soa7503/workspace/soapui-4.6.0/bin/soapui-4.6.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2018-03-06 21:43:24,142 INFO  [SchemaUtils] Loading schema types from [http://localhost:8080/fj36-webservice/EstoqueWS?wsdl]
+2018-03-06 21:43:24,142 INFO  [SchemaUtils] Getting schema http://localhost:8080/fj36-webservice/EstoqueWS?wsdl
+2018-03-06 21:43:24,379 INFO  [WsdlImporter] Finding importer for {http://ws.estoque.caelum.com.br/}EstoqueWSServiceSoapBinding
+2018-03-06 21:43:24,395 INFO  [WsdlImporter] Importing binding {http://ws.estoque.caelum.com.br/}EstoqueWSServiceSoapBinding
+2018-03-06 21:43:24,433 INFO  [Soap11HttpBindingImporter] importing endpoint http://localhost:8080/fj36-webservice/EstoqueWS
+2018-03-06 21:43:24,440 INFO  [Soap11HttpBindingImporter] importing operation getQuantidade
+2018-03-06 21:44:14,673 INFO  [AbstractHttpRequestDesktopPanel] Got response for [EstoqueWSServiceSoapBinding.getQuantidade:Request 1] in 220ms (272 bytes)
+2018-03-06 21:44:50,229 INFO  [AbstractHttpRequestDesktopPanel] Got response for [EstoqueWSServiceSoapBinding.getQuantidade:Request 1] in 17ms (272 bytes)

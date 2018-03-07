@@ -27,10 +27,6 @@ public class EstoqueService extends UnicastRemoteObject
 		
 		System.out.println("Verificando estoque do Produto: " + codigoProduto);
 		
-		return this.repositorio.get(codigoProduto);	
-		
-	}
-	
-	
-
+		return this.repositorio.get(codigoProduto);			
+	}	
 }
