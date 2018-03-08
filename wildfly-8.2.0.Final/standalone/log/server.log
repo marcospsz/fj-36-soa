@@ -1,40 +1,7 @@
-2018-03-06 20:40:14,662 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
-2018-03-06 20:40:14,669 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
-2018-03-06 20:40:14,733 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
-2018-03-06 20:40:14,741 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
-2018-03-06 20:40:14,746 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
-2018-03-06 20:40:14,754 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
-2018-03-06 20:40:14,755 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
-2018-03-06 20:40:14,770 INFO  [org.jboss.as.security] (MSC service thread 1-4) JBAS013170: Current PicketBox version=4.0.21.Final
-2018-03-06 20:40:14,778 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 20:40:14,782 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 20:40:14,784 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-7) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
-2018-03-06 20:40:14,794 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) JBAS010417: Started Driver service with driver-name = h2
-2018-03-06 20:40:14,820 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
-2018-03-06 20:40:14,877 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
-2018-03-06 20:40:14,880 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) JBAS015400: Bound mail session [java:jboss/mail/Default]
-2018-03-06 20:40:14,881 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.6.Final
-2018-03-06 20:40:15,161 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/soa7503/workspace/wildfly-8.2.0.Final/welcome-content
-2018-03-06 20:40:15,238 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017525: Started server default-server.
-2018-03-06 20:40:15,544 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017531: Host default-host starting
-2018-03-06 20:40:15,784 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
-2018-03-06 20:40:15,811 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory /home/soa7503/workspace/wildfly-8.2.0.Final/standalone/deployments
-2018-03-06 20:40:16,076 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
-2018-03-06 20:40:16,462 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
-2018-03-06 20:40:16,751 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
-2018-03-06 20:40:16,751 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
-2018-03-06 20:40:16,752 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4455ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
-2018-03-06 20:44:08,905 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
-2018-03-06 20:44:08,908 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017532: Host default-host stopping
-2018-03-06 20:44:08,917 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017521: Undertow HTTP listener default suspending
-2018-03-06 20:44:08,918 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
-2018-03-06 20:44:08,920 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017506: Undertow 1.1.0.Final stopping
-2018-03-06 20:44:08,948 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010418: Stopped Driver service with driver-name = h2
-2018-03-06 20:44:08,973 INFO  [org.jboss.as] (MSC service thread 1-4) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 78ms
-2018-03-06 20:44:09,548 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
-2018-03-06 20:44:09,889 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
-2018-03-06 20:44:09,997 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
-2018-03-06 20:44:10,006 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+2018-03-07 19:08:38,913 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2018-03-07 19:08:40,098 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2018-03-07 19:08:40,302 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2018-03-07 19:08:40,311 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
 	awt.toolkit = sun.awt.X11.XToolkit
 	file.encoding = UTF-8
 	file.encoding.pkg = sun.io
@@ -128,46 +95,43 @@
 	user.language.format = pt
 	user.name = soa7503
 	user.timezone = America/Sao_Paulo
-2018-03-06 20:44:10,008 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/soa7503/workspace/wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2018-03-06 20:44:11,645 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
-2018-03-06 20:44:11,674 INFO  [org.xnio] (MSC service thread 1-3) XNIO version 3.3.0.Final
-2018-03-06 20:44:11,695 INFO  [org.xnio.nio] (MSC service thread 1-3) XNIO NIO Implementation Version 3.3.0.Final
-2018-03-06 20:44:11,819 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
-2018-03-06 20:44:11,830 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
-2018-03-06 20:44:11,831 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
-2018-03-06 20:44:11,837 INFO  [org.jboss.remoting] (MSC service thread 1-3) JBoss Remoting version 4.0.6.Final
-2018-03-06 20:44:11,846 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
-2018-03-06 20:44:11,860 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
-2018-03-06 20:44:11,865 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
-2018-03-06 20:44:11,884 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
-2018-03-06 20:44:11,899 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
-2018-03-06 20:44:11,901 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
-2018-03-06 20:44:11,928 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
-2018-03-06 20:44:11,965 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013170: Current PicketBox version=4.0.21.Final
-2018-03-06 20:44:11,982 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 20:44:11,983 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 20:44:12,005 INFO  [org.jboss.as.naming] (MSC service thread 1-4) JBAS011802: Starting Naming Service
-2018-03-06 20:44:12,007 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) JBAS015400: Bound mail session [java:jboss/mail/Default]
-2018-03-06 20:44:12,300 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/soa7503/workspace/wildfly-8.2.0.Final/welcome-content
-2018-03-06 20:44:12,330 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017525: Started server default-server.
-2018-03-06 20:44:12,406 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
-2018-03-06 20:44:12,803 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
-2018-03-06 20:44:13,148 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) JBAS015012: Started FileSystemDeploymentService for directory /home/soa7503/workspace/wildfly-8.2.0.Final/standalone/deployments
-2018-03-06 20:44:13,175 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
-2018-03-06 20:44:13,472 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
-2018-03-06 20:44:13,645 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
-2018-03-06 20:44:13,647 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
-2018-03-06 20:44:13,647 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 4491ms - Started 184 of 234 services (82 services are lazy, passive or on-demand)
-2018-03-06 21:32:43,900 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found fj36-webservice.war in deployment directory. To trigger deployment create a file called fj36-webservice.war.dodeploy
-2018-03-06 21:32:43,933 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "fj36-webservice.war" (runtime-name: "fj36-webservice.war")
-2018-03-06 21:32:44,184 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016002: Processing weld deployment fj36-webservice.war
-2018-03-06 21:32:44,256 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-4) HV000001: Hibernate Validator 5.1.3.Final
-2018-03-06 21:32:44,350 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-4) JNDI bindings for session bean named EstoqueWS in deployment unit deployment "fj36-webservice.war" are as follows:
+2018-03-07 19:08:40,313 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/soa7503/workspace/wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-07 19:08:46,238 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found fj36-webservice.war in deployment directory. To trigger deployment create a file called fj36-webservice.war.dodeploy
+2018-03-07 19:08:46,265 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2018-03-07 19:08:46,324 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
+2018-03-07 19:08:46,347 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
+2018-03-07 19:08:46,439 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2018-03-07 19:08:46,439 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-07 19:08:46,450 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2018-03-07 19:08:46,458 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2018-03-07 19:08:46,478 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
+2018-03-07 19:08:46,481 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2018-03-07 19:08:46,458 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2018-03-07 19:08:46,485 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Final
+2018-03-07 19:08:46,554 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2018-03-07 19:08:46,577 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
+2018-03-07 19:08:46,592 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) JBAS017502: Undertow 1.1.0.Final starting
+2018-03-07 19:08:46,593 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2018-03-07 19:08:46,595 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2018-03-07 19:08:46,630 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-6) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2018-03-07 19:08:47,242 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/soa7503/workspace/wildfly-8.2.0.Final/welcome-content
+2018-03-07 19:08:47,321 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-03-07 19:08:47,358 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) JBAS010417: Started Driver service with driver-name = h2
+2018-03-07 19:08:47,474 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017525: Started server default-server.
+2018-03-07 19:08:47,502 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017531: Host default-host starting
+2018-03-07 19:08:48,079 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2018-03-07 19:08:48,862 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory /home/soa7503/workspace/wildfly-8.2.0.Final/standalone/deployments
+2018-03-07 19:08:48,870 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "fj36-webservice.war" (runtime-name: "fj36-webservice.war")
+2018-03-07 19:08:50,010 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-07 19:08:51,988 INFO  [org.jboss.ws.common.management] (MSC service thread 1-4) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2018-03-07 19:08:52,024 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment fj36-webservice.war
+2018-03-07 19:08:53,386 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2018-03-07 19:08:53,824 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named EstoqueWS in deployment unit deployment "fj36-webservice.war" are as follows:
 
 
-2018-03-06 21:32:44,536 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: fj36-webservice.war
-2018-03-06 21:32:44,569 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900: 2.2.6 (Final)
-2018-03-06 21:32:44,621 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-4) JBWS024061: Adding service endpoint metadata: id=EstoqueWS
+2018-03-07 19:08:54,237 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016005: Starting Services for CDI deployment: fj36-webservice.war
+2018-03-07 19:08:54,772 INFO  [org.jboss.weld.Version] (MSC service thread 1-2) WELD-000900: 2.2.6 (Final)
+2018-03-07 19:08:55,721 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-2) JBWS024061: Adding service endpoint metadata: id=EstoqueWS
  address=http://localhost:8080/fj36-webservice/EstoqueWS
  implementor=br.com.caelum.estoque.ws.EstoqueWS
  serviceName={http://ws.estoque.caelum.com.br/}EstoqueWSService
@@ -175,28 +139,31 @@
  annotationWsdlLocation=null
  wsdlLocationOverride=null
  mtomEnabled=false
-2018-03-06 21:32:44,821 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-4) Creating Service {http://ws.estoque.caelum.com.br/}EstoqueWSService from class br.com.caelum.estoque.ws.EstoqueWS
-2018-03-06 21:32:45,990 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-4) Setting the server's publish address to be http://localhost:8080/fj36-webservice/EstoqueWS
-2018-03-06 21:32:46,131 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-4) JBWS024074: WSDL published to: file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/data/wsdl/fj36-webservice.war/EstoqueWSService.wsdl
-2018-03-06 21:32:46,172 INFO  [org.jboss.as.webservices] (MSC service thread 1-8) JBAS015539: Starting service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
-2018-03-06 21:32:46,172 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) JBAS016008: Starting weld service for deployment fj36-webservice.war
-2018-03-06 21:32:47,137 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017534: Registered web context: /fj36-webservice
-2018-03-06 21:32:47,265 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) JBAS018559: Deployed "fj36-webservice.war" (runtime-name : "fj36-webservice.war")
-2018-03-06 21:32:47,303 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017535: Unregistered web context: /fj36-webservice
-2018-03-06 21:32:47,342 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017532: Host default-host stopping
-2018-03-06 21:32:47,343 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) JBAS015540: Stopping service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
-2018-03-06 21:32:47,351 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
-2018-03-06 21:32:47,353 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) JBAS010418: Stopped Driver service with driver-name = h2
-2018-03-06 21:32:47,357 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016009: Stopping weld service for deployment fj36-webservice.war
-2018-03-06 21:32:47,404 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017521: Undertow HTTP listener default suspending
-2018-03-06 21:32:47,406 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
-2018-03-06 21:32:47,407 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017506: Undertow 1.1.0.Final stopping
-2018-03-06 21:32:47,414 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) JBAS015877: Stopped deployment fj36-webservice.war (runtime-name: fj36-webservice.war) in 120ms
-2018-03-06 21:32:47,417 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 114ms
-2018-03-06 21:32:47,891 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
-2018-03-06 21:32:48,125 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
-2018-03-06 21:32:48,202 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
-2018-03-06 21:32:48,208 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+2018-03-07 19:08:57,701 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-2) Creating Service {http://ws.estoque.caelum.com.br/}EstoqueWSService from class br.com.caelum.estoque.ws.EstoqueWS
+2018-03-07 19:08:59,935 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-2) Setting the server's publish address to be http://localhost:8080/fj36-webservice/EstoqueWS
+2018-03-07 19:09:00,199 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-2) JBWS024074: WSDL published to: file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/data/wsdl/fj36-webservice.war/EstoqueWSService.wsdl
+2018-03-07 19:09:00,293 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment fj36-webservice.war
+2018-03-07 19:09:00,293 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) JBAS015539: Starting service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
+2018-03-07 19:09:02,120 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /fj36-webservice
+2018-03-07 19:09:02,186 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "fj36-webservice.war" (runtime-name : "fj36-webservice.war")
+2018-03-07 19:09:02,282 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-07 19:09:02,283 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2018-03-07 19:09:02,283 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 24496ms - Started 285 of 338 services (92 services are lazy, passive or on-demand)
+2018-03-07 20:26:07,641 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017535: Unregistered web context: /fj36-webservice
+2018-03-07 20:26:07,674 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) JBAS015540: Stopping service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
+2018-03-07 20:26:07,677 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) JBAS017532: Host default-host stopping
+2018-03-07 20:26:07,679 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-03-07 20:26:07,682 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016009: Stopping weld service for deployment fj36-webservice.war
+2018-03-07 20:26:07,696 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) JBAS010418: Stopped Driver service with driver-name = h2
+2018-03-07 20:26:07,772 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017521: Undertow HTTP listener default suspending
+2018-03-07 20:26:07,779 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017520: Undertow HTTP listener default stopped, was bound to localhost/127.0.0.1:8080
+2018-03-07 20:26:07,780 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017506: Undertow 1.1.0.Final stopping
+2018-03-07 20:26:07,784 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) JBAS015877: Stopped deployment fj36-webservice.war (runtime-name: fj36-webservice.war) in 179ms
+2018-03-07 20:26:07,790 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015950: WildFly 8.2.0.Final "Tweek" stopped in 179ms
+2018-03-07 20:26:08,308 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.3.Final
+2018-03-07 20:26:08,523 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.2.Final
+2018-03-07 20:26:08,595 INFO  [org.jboss.as] (MSC service thread 1-6) JBAS015899: WildFly 8.2.0.Final "Tweek" starting
+2018-03-07 20:26:08,604 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
 	awt.toolkit = sun.awt.X11.XToolkit
 	file.encoding = UTF-8
 	file.encoding.pkg = sun.io
@@ -290,66 +257,62 @@
 	user.language.format = pt
 	user.name = soa7503
 	user.timezone = America/Sao_Paulo
-2018-03-06 21:32:48,209 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/soa7503/workspace/wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
-2018-03-06 21:32:49,501 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found fj36-webservice.war in deployment directory. To trigger deployment create a file called fj36-webservice.war.dodeploy
-2018-03-06 21:32:49,527 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
-2018-03-06 21:32:49,555 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.3.0.Final
-2018-03-06 21:32:49,580 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.3.0.Final
-2018-03-06 21:32:49,621 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
-2018-03-06 21:32:49,653 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
-2018-03-06 21:32:49,676 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-7) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
-2018-03-06 21:32:49,717 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
-2018-03-06 21:32:49,718 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 4.0.6.Final
-2018-03-06 21:32:49,724 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
-2018-03-06 21:32:49,728 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
-2018-03-06 21:32:49,730 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) JBAS010417: Started Driver service with driver-name = h2
-2018-03-06 21:32:49,744 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
-2018-03-06 21:32:49,747 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
-2018-03-06 21:32:49,820 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
-2018-03-06 21:32:49,823 INFO  [org.jboss.as.security] (MSC service thread 1-7) JBAS013170: Current PicketBox version=4.0.21.Final
-2018-03-06 21:32:49,857 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 21:32:49,860 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
-2018-03-06 21:32:49,933 INFO  [org.jboss.as.naming] (MSC service thread 1-5) JBAS011802: Starting Naming Service
-2018-03-06 21:32:49,942 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
-2018-03-06 21:32:50,060 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/soa7503/workspace/wildfly-8.2.0.Final/welcome-content
-2018-03-06 21:32:50,079 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017525: Started server default-server.
-2018-03-06 21:32:50,236 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017531: Host default-host starting
-2018-03-06 21:32:50,447 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
-2018-03-06 21:32:50,594 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory /home/soa7503/workspace/wildfly-8.2.0.Final/standalone/deployments
-2018-03-06 21:32:50,613 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "fj36-webservice.war" (runtime-name: "fj36-webservice.war")
-2018-03-06 21:32:50,771 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
-2018-03-06 21:32:51,166 INFO  [org.jboss.weld.deployer] (MSC service thread 1-8) JBAS016002: Processing weld deployment fj36-webservice.war
-2018-03-06 21:32:51,308 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
-2018-03-06 21:32:51,339 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-8) HV000001: Hibernate Validator 5.1.3.Final
-2018-03-06 21:32:51,468 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-8) JNDI bindings for session bean named EstoqueWS in deployment unit deployment "fj36-webservice.war" are as follows:
+2018-03-07 20:26:08,606 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -Dprogram.name=JBossTools: WildFly  8.x -Xms64m -Xmx512m -XX:MaxPermSize=256m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/log/boot.log -Dlogging.configuration=file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/configuration/logging.properties -Djboss.home.dir=/home/soa7503/workspace/wildfly-8.2.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2018-03-07 20:26:09,894 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) JBAS015003: Found fj36-webservice.war in deployment directory. To trigger deployment create a file called fj36-webservice.war.dodeploy
+2018-03-07 20:26:09,914 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+2018-03-07 20:26:09,939 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.3.0.Final
+2018-03-07 20:26:09,955 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.3.0.Final
+2018-03-07 20:26:10,022 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 31) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2018-03-07 20:26:10,047 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 32) JBAS010280: Activating Infinispan subsystem.
+2018-03-07 20:26:10,091 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-8) JBAS010408: Starting JCA Subsystem (IronJacamar 1.1.9.Final)
+2018-03-07 20:26:10,096 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 27) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-03-07 20:26:10,117 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 40) JBAS011800: Activating Naming Subsystem
+2018-03-07 20:26:10,118 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) JBAS010417: Started Driver service with driver-name = h2
+2018-03-07 20:26:10,133 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 38) JBAS012615: Activated the following JSF Implementations: [main]
+2018-03-07 20:26:10,137 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 45) JBAS013171: Activating Security Subsystem
+2018-03-07 20:26:10,143 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 48) JBAS015537: Activating WebServices Extension
+2018-03-07 20:26:10,147 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.21.Final
+2018-03-07 20:26:10,154 INFO  [org.jboss.remoting] (MSC service thread 1-2) JBoss Remoting version 4.0.6.Final
+2018-03-07 20:26:10,170 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 46) JBAS010153: Node identifier property is set to the default value. Please make sure it is unique.
+2018-03-07 20:26:10,203 INFO  [org.jboss.as.naming] (MSC service thread 1-8) JBAS011802: Starting Naming Service
+2018-03-07 20:26:10,206 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) JBAS015400: Bound mail session [java:jboss/mail/Default]
+2018-03-07 20:26:10,222 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) JBAS017502: Undertow 1.1.0.Final starting
+2018-03-07 20:26:10,250 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017502: Undertow 1.1.0.Final starting
+2018-03-07 20:26:10,443 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 47) JBAS017527: Creating file handler for path /home/soa7503/workspace/wildfly-8.2.0.Final/welcome-content
+2018-03-07 20:26:10,471 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017525: Started server default-server.
+2018-03-07 20:26:10,643 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) JBAS017531: Host default-host starting
+2018-03-07 20:26:10,708 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) JBAS017519: Undertow HTTP listener default listening on localhost/127.0.0.1:8080
+2018-03-07 20:26:10,980 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) JBAS015012: Started FileSystemDeploymentService for directory /home/soa7503/workspace/wildfly-8.2.0.Final/standalone/deployments
+2018-03-07 20:26:10,997 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015876: Starting deployment of "fj36-webservice.war" (runtime-name: "fj36-webservice.war")
+2018-03-07 20:26:11,076 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+2018-03-07 20:26:11,543 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016002: Processing weld deployment fj36-webservice.war
+2018-03-07 20:26:11,578 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.3.2.Final
+2018-03-07 20:26:11,692 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 5.1.3.Final
+2018-03-07 20:26:11,809 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-1) JNDI bindings for session bean named EstoqueWS in deployment unit deployment "fj36-webservice.war" are as follows:
 
 
-2018-03-06 21:32:51,713 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016005: Starting Services for CDI deployment: fj36-webservice.war
-2018-03-06 21:32:51,751 INFO  [org.jboss.weld.Version] (MSC service thread 1-6) WELD-000900: 2.2.6 (Final)
-2018-03-06 21:32:51,816 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-6) JBWS024061: Adding service endpoint metadata: id=EstoqueWS
+2018-03-07 20:26:12,035 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) JBAS016005: Starting Services for CDI deployment: fj36-webservice.war
+2018-03-07 20:26:12,079 INFO  [org.jboss.weld.Version] (MSC service thread 1-1) WELD-000900: 2.2.6 (Final)
+2018-03-07 20:26:12,157 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-1) JBWS024061: Adding service endpoint metadata: id=EstoqueWS
  address=http://localhost:8080/fj36-webservice/EstoqueWS
  implementor=br.com.caelum.estoque.ws.EstoqueWS
- serviceName={http://ws.estoque.caelum.com.br/}EstoqueWSService
- portName={http://ws.estoque.caelum.com.br/}EstoqueWSPort
+ serviceName={http://caelum.com.br/estoquews/v1}EstoqueWSService
+ portName={http://caelum.com.br/estoquews/v1}EstoqueWSPort
  annotationWsdlLocation=null
  wsdlLocationOverride=null
  mtomEnabled=false
-2018-03-06 21:32:52,061 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-6) Creating Service {http://ws.estoque.caelum.com.br/}EstoqueWSService from class br.com.caelum.estoque.ws.EstoqueWS
-2018-03-06 21:32:53,164 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-6) Setting the server's publish address to be http://localhost:8080/fj36-webservice/EstoqueWS
-2018-03-06 21:32:53,282 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-6) JBWS024074: WSDL published to: file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/data/wsdl/fj36-webservice.war/EstoqueWSService.wsdl
-2018-03-06 21:32:53,325 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment fj36-webservice.war
-2018-03-06 21:32:53,326 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) JBAS015539: Starting service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
-2018-03-06 21:32:54,454 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) JBAS017534: Registered web context: /fj36-webservice
-2018-03-06 21:32:54,504 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "fj36-webservice.war" (runtime-name : "fj36-webservice.war")
-2018-03-06 21:32:54,602 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
-2018-03-06 21:32:54,603 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
-2018-03-06 21:32:54,603 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 6994ms - Started 285 of 338 services (92 services are lazy, passive or on-demand)
-2018-03-06 21:35:21,209 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-4) Interceptor for {http://ws.estoque.caelum.com.br/}EstoqueWSService has thrown exception, unwinding now: org.apache.cxf.frontend.WSDLQueryException: Could not find xsd 
-	at org.apache.cxf.frontend.WSDLGetUtils.lookupSchemaReference(WSDLGetUtils.java:844)
-	at org.apache.cxf.frontend.WSDLGetUtils.readXSDDocument(WSDLGetUtils.java:676)
-	at org.apache.cxf.frontend.WSDLGetUtils.getDocument(WSDLGetUtils.java:152)
-	at org.apache.cxf.frontend.WSDLGetInterceptor.getDocument(WSDLGetInterceptor.java:129)
-	at org.apache.cxf.frontend.WSDLGetInterceptor.handleMessage(WSDLGetInterceptor.java:77)
+2018-03-07 20:26:12,427 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-1) Creating Service {http://caelum.com.br/estoquews/v1}EstoqueWSService from class br.com.caelum.estoque.ws.EstoqueWS
+2018-03-07 20:26:13,593 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-1) Setting the server's publish address to be http://localhost:8080/fj36-webservice/EstoqueWS
+2018-03-07 20:26:13,697 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-1) JBWS024074: WSDL published to: file:/home/soa7503/workspace/wildfly-8.2.0.Final/standalone/data/wsdl/fj36-webservice.war/EstoqueWSService.wsdl
+2018-03-07 20:26:13,730 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment fj36-webservice.war
+2018-03-07 20:26:13,736 INFO  [org.jboss.as.webservices] (MSC service thread 1-3) JBAS015539: Starting service jboss.ws.endpoint."fj36-webservice.war".EstoqueWS
+2018-03-07 20:26:14,957 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) JBAS017534: Registered web context: /fj36-webservice
+2018-03-07 20:26:15,034 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 28) JBAS018559: Deployed "fj36-webservice.war" (runtime-name : "fj36-webservice.war")
+2018-03-07 20:26:15,118 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+2018-03-07 20:26:15,119 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+2018-03-07 20:26:15,119 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: WildFly 8.2.0.Final "Tweek" started in 7103ms - Started 285 of 338 services (92 services are lazy, passive or on-demand)
+2018-03-07 20:28:23,174 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-5) Interceptor for {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Unexpected wrapper element {http://ws.estoque.caelum.com.br/}ItensPeloCodigo found.   Expected {http://caelum.com.br/estoquews/v1}ItensPeloCodigo.
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:104)
 	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
 	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
 	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
@@ -357,8 +320,8 @@
 	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
 	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
-	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
 	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
 	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
@@ -389,8 +352,165 @@
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
 	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
 
-2018-03-06 21:35:52,846 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-6) Interceptor for {http://ws.estoque.caelum.com.br/}EstoqueWSService has thrown exception, unwinding now: java.lang.NullPointerException
-	at org.apache.cxf.service.factory.SimpleMethodDispatcher.getMethod(SimpleMethodDispatcher.java:97)
+2018-03-07 20:29:18,564 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-7) Interceptor for {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Unexpected wrapper element {http://ws.estoque.caelum.com.br/}ItensPeloCodigo found.   Expected {http://caelum.com.br/estoquews/v1}ItensPeloCodigo.
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:104)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2018-03-07 20:30:05,301 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-8) Interceptor for {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Unexpected wrapper element {http://ws.estoque.caelum.com.br/v1}ItensPeloCodigo found.   Expected {http://caelum.com.br/estoquews/v1}ItensPeloCodigo.
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:104)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2018-03-07 20:30:10,109 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-9) Interceptor for {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: Unexpected wrapper element {http://ws.estoque.caelum.com.br/v1}ItensPeloCodigo found.   Expected {http://caelum.com.br/estoquews/v1}ItensPeloCodigo.
+	at org.apache.cxf.interceptor.DocLiteralInInterceptor.handleMessage(DocLiteralInInterceptor.java:104)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+
+2018-03-07 20:31:10,454 ERROR [org.jboss.as.ejb3.invocation] (default task-10) JBAS014134: EJB Invocation failed on component EstoqueWS for method public java.util.List br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(java.util.List,java.lang.String): javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
 	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
 	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
@@ -404,8 +524,8 @@
 	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
 	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
 	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
-	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doGet(AbstractHTTPServlet.java:211)
-	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
 	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
 	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
 	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
@@ -435,4 +555,647 @@
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
 	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
+
+2018-03-07 20:31:10,466 ERROR [org.jboss.as.webservices.invocation.InvocationHandlerJAXWS] (default task-10) JBAS015594: Method invocation failed with exception: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado: javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_161]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
+
+2018-03-07 20:31:10,477 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-10) Application {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:170)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:272)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:136)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_161]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	... 46 more
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
+
+2018-03-07 20:33:11,455 ERROR [org.jboss.as.ejb3.invocation] (default task-11) JBAS014134: EJB Invocation failed on component EstoqueWS for method public java.util.List br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(java.util.List,java.lang.String): javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_161]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
+
+2018-03-07 20:33:11,467 ERROR [org.jboss.as.webservices.invocation.InvocationHandlerJAXWS] (default task-11) JBAS015594: Method invocation failed with exception: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado: javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_161]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
+
+2018-03-07 20:33:11,478 WARNING [org.apache.cxf.phase.PhaseInterceptorChain] (default task-11) Application {http://caelum.com.br/estoquews/v1}EstoqueWSService#{http://caelum.com.br/estoquews/v1}ItensPeloCodigo has thrown exception, unwinding now: org.apache.cxf.interceptor.Fault: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:170)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.createFault(AbstractJAXWSMethodInvoker.java:272)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:136)
+	at org.apache.cxf.jaxws.AbstractJAXWSMethodInvoker.invoke(AbstractJAXWSMethodInvoker.java:237)
+	at org.apache.cxf.jaxws.JAXWSMethodInvoker.invoke(JAXWSMethodInvoker.java:69)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.invoke(JBossWSInvoker.java:146)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:58)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [rt.jar:1.8.0_161]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [rt.jar:1.8.0_161]
+	at org.apache.cxf.workqueue.SynchronousExecutor.execute(SynchronousExecutor.java:37)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:107)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:272)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:241)
+	at org.jboss.wsf.stack.cxf.RequestHandlerImpl.handleHttpRequest(RequestHandlerImpl.java:97)
+	at org.jboss.wsf.stack.cxf.transport.ServletHelper.callRequestHandler(ServletHelper.java:131)
+	at org.jboss.wsf.stack.cxf.CXFServletExt.invoke(CXFServletExt.java:88)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:286)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPost(AbstractHTTPServlet.java:206)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at org.jboss.wsf.stack.cxf.CXFServletExt.service(CXFServletExt.java:136)
+	at org.jboss.wsf.spi.deployment.WSFServlet.service(WSFServlet.java:140) [jbossws-spi-2.3.1.Final.jar:2.3.1.Final]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) [jboss-servlet-api_3.1_spec-1.0.0.Final.jar:1.0.0.Final]
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:85) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:61) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:131) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:56) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:45) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:63) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:58) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:70) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.security.handlers.SecurityInitialHandler.handleRequest(SecurityInitialHandler.java:76) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:261) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:247) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:76) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:166) [undertow-servlet-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:197) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:759) [undertow-core-1.1.0.Final.jar:1.1.0.Final]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [rt.jar:1.8.0_161]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [rt.jar:1.8.0_161]
+	at java.lang.Thread.run(Thread.java:748) [rt.jar:1.8.0_161]
+Caused by: javax.ejb.EJBException: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.handleExceptionInOurTx(CMTTxInterceptor.java:190) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:275) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.required(CMTTxInterceptor.java:340) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.processInvocation(CMTTxInterceptor.java:239) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.CurrentInvocationContextInterceptor.processInvocation(CurrentInvocationContextInterceptor.java:41) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.WaitTimeInterceptor.processInvocation(WaitTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.security.SecurityContextInterceptor.processInvocation(SecurityContextInterceptor.java:95) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.ShutDownInterceptorFactory$1.processInvocation(ShutDownInterceptorFactory.java:64) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.LoggingInterceptor.processInvocation(LoggingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.component.NamespaceContextInterceptor.processInvocation(NamespaceContextInterceptor.java:50)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.AdditionalSetupInterceptor.processInvocation(AdditionalSetupInterceptor.java:55) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ContextClassLoaderInterceptor.processInvocation(ContextClassLoaderInterceptor.java:64)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.wildfly.security.manager.WildFlySecurityManager.doChecked(WildFlySecurityManager.java:448)
+	at org.jboss.invocation.AccessCheckingInterceptor.processInvocation(AccessCheckingInterceptor.java:61)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext.run(InterceptorContext.java:326)
+	at org.jboss.invocation.PrivilegedWithCombinerInterceptor.processInvocation(PrivilegedWithCombinerInterceptor.java:80)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.ViewService$View.invoke(ViewService.java:185)
+	at org.jboss.as.webservices.invocation.AbstractInvocationHandler.invoke(AbstractInvocationHandler.java:130)
+	at org.jboss.wsf.stack.cxf.JBossWSInvoker.performInvocation(JBossWSInvoker.java:175)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:104)
+	... 46 more
+Caused by: br.com.caelum.estoque.ws.AutorizacaoException: Nao autorizado
+	at br.com.caelum.estoque.ws.EstoqueWS.getItemEstoque(EstoqueWS.java:38) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.8.0_161]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) [rt.jar:1.8.0_161]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.8.0_161]
+	at java.lang.reflect.Method.invoke(Method.java:498) [rt.jar:1.8.0_161]
+	at org.jboss.as.ee.component.ManagedReferenceMethodInterceptor.processInvocation(ManagedReferenceMethodInterceptor.java:52)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.doMethodInterception(Jsr299BindingsInterceptor.java:82) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.weld.ejb.Jsr299BindingsInterceptor.processInvocation(Jsr299BindingsInterceptor.java:93) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.WeavedInterceptor.processInvocation(WeavedInterceptor.java:53)
+	at org.jboss.as.ee.component.interceptors.UserInterceptorFactory$1.processInvocation(UserInterceptorFactory.java:63)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.invocationmetrics.ExecutionTimeInterceptor.processInvocation(ExecutionTimeInterceptor.java:43) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.jpa.interceptor.SBInvocationInterceptor.processInvocation(SBInvocationInterceptor.java:47)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InterceptorContext$Invocation.proceed(InterceptorContext.java:407)
+	at org.jboss.weld.ejb.AbstractEJBRequestScopeActivationInterceptor.aroundInvoke(AbstractEJBRequestScopeActivationInterceptor.java:46) [weld-core-impl-2.2.6.Final.jar:2014-10-03 10:05]
+	at org.jboss.as.weld.ejb.EjbRequestScopeActivationInterceptor.processInvocation(EjbRequestScopeActivationInterceptor.java:83) [wildfly-weld-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ee.concurrent.ConcurrentContextInterceptor.processInvocation(ConcurrentContextInterceptor.java:45) [wildfly-ee-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.InitialInterceptor.processInvocation(InitialInterceptor.java:21)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.invocation.ChainedInterceptor.processInvocation(ChainedInterceptor.java:61)
+	at org.jboss.as.ee.component.interceptors.ComponentDispatcherInterceptor.processInvocation(ComponentDispatcherInterceptor.java:53)
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.component.interceptors.NonPooledEJBComponentInstanceAssociatingInterceptor.processInvocation(NonPooledEJBComponentInstanceAssociatingInterceptor.java:59) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	at org.jboss.invocation.InterceptorContext.proceed(InterceptorContext.java:309)
+	at org.jboss.as.ejb3.tx.CMTTxInterceptor.invokeInOurTx(CMTTxInterceptor.java:273) [wildfly-ejb3-8.2.0.Final.jar:8.2.0.Final]
+	... 77 more
 

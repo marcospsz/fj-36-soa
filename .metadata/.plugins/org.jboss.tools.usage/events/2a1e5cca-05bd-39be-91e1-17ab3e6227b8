@@ -1,9 +1,9 @@
-#Tue Mar 06 20:40:07 BRT 2018
+#Wed Mar 07 19:00:13 BRT 2018
 vl=0 \= failed, 1 \= successful
 l=Server Runtime ID
 ct=server
-d=1520379607562
-c=1
+d=1520460013914
+c=0
 cmp=server
 a=new
 cl=org.jboss.ide.eclipse.as.wildfly.80
