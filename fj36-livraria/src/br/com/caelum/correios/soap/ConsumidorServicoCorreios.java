@@ -1,6 +1,9 @@
 package br.com.caelum.correios.soap;
 
 import java.math.BigDecimal;
+import java.util.List;
+
+import org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod;
 
 public class ConsumidorServicoCorreios {
 
@@ -26,7 +29,22 @@ public class ConsumidorServicoCorreios {
 		String valorFrete = null;
 
 		//chamada do Web Service do Correios aqui
-
+		
+		CalcPrecoPrazoWSSoap servico = new CalcPrecoPrazoWS().getCalcPrecoPrazoWSSoap() ;
+		
+		CResultado resultado = servico.calcPrecoPrazo(
+				semCodigoEmpresa     , semSenhaEmpresa, codigoSedex      ,	
+				cepOrigemCaelumSP    , cepDestino     , peso3kg          ,	
+				formatoEncomendaCaixa, comprimento20cm,	altura10cm       ,	
+				largura15cm          , diametro10cm   , semEntregueEmMaos,	
+				semValorDeclarado    , semAvisoRecebimento
+				) ;
+		
+		List<CServico> servicosPesquisados = resultado.getServicos().getCServico() ;
+		valorFrete = servicosPesquisados.get(0).getValor() ;
+		
+		System.out.printf("Frete para %s eh de %s %n",	cepDestino,	valorFrete);
+				
 		return converterParaBigDecimal(valorFrete);
 	}
 
