@@ -35,3 +35,5 @@
 2018-03-07 20:33:11,498 INFO  [AbstractHttpRequestDesktopPanel] Got response for [EstoqueWSServiceSoapBinding.ItensPeloCodigo:Request 1] in 48ms (256 bytes)
 2018-03-07 20:33:26,389 INFO  [AbstractHttpRequestDesktopPanel] Got response for [EstoqueWSServiceSoapBinding.ItensPeloCodigo:Request 1] in 60ms (360 bytes)
 2018-03-07 20:35:48,100 INFO  [AbstractHttpRequestDesktopPanel] Got response for [EstoqueWSServiceSoapBinding.ItensPeloCodigo:Request 1] in 9ms (433 bytes)
+2018-03-07 23:02:10,153 INFO  [DefaultSoapUICore] Settings saved to [/home/soa7503/workspace/soapui-4.6.0/soapui-settings.xml]
+2018-03-07 23:02:12,999 INFO  [WorkspaceImpl] Saved workspace to [/home/soa7503/workspace/soapui-4.6.0/bin/../../TestPBE-workspace.xml]

@@ -4,23 +4,15 @@
 		<item value="172" key="dialogHeight"/>
 		<item value="272" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
-			<item value="1"/>
 			<item value="2"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.edit.text.java.generate.constructor.using.fields"/>
-			<item value="org.eclipse.jdt.ui.edit.text.java.create.getter.setter"/>
 			<item value="org.eclipse.wst.server.ui.ServersView"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.commands"/>
-			<item value="org.eclipse.ui.commands"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
-			<item value="constructo"/>
-			<item value="ggas"/>
 			<item value="serve"/>
 			<item value="server"/>
 		</list>
@@ -30,7 +22,6 @@
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.jboss.tools.cdi.ui"/>
 			<item value="org.eclipse.jdt.ui.java"/>
-			<item value="org.eclipse.jst.j2ee.internal"/>
 			<item value="org.eclipse.jpt.jaxb"/>
 			<item value="org.jboss.ide.eclipse.ui.wizards"/>
 			<item value="org.jboss.tools.jst.web"/>

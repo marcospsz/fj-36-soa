@@ -2,19 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="listar()" key="selection"/>
+		<item value="atualizarFre" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="atualizarfre"/>
+			<item value="result"/>
+			<item value="CalcPrecoPrazo"/>
+			<item value="calcPrecoPrazo"/>
+			<item value="&#x09;calcPrecoPrazo"/>
+			<item value="frete"/>
+			<item value="toke"/>
 			<item value="listar()"/>
-			<item value="lista()"/>
-			<item value="istar()"/>
-			<item value="LISTAR"/>
-			<item value="listar"/>
-			<item value="index"/>
-			<item value="root"/>
 		</list>
 		<list key="replacehistory">
 		</list>
