@@ -1,0 +1,13 @@
+package br.com.caelum.jms;
+
+import javax.jms.MessageListener;
+
+public class TratadorDeMensagem implements MessageListener{
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

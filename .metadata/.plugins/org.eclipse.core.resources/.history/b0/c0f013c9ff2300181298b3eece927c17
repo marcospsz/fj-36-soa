@@ -1,0 +1,11 @@
+package br.com.caelum.jms;
+
+public class RegistraTratadorNaFila {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

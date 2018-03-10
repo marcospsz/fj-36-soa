@@ -1,0 +1,13 @@
+package br.com.caelum.jms;
+
+import javax.naming.InitialContext;
+
+public class RegistraTratadorNaFila {
+	
+	public static void main(String[] args) {
+		
+		InitialContext ic = new InitialContext() ;
+		
+	}
+
+}
