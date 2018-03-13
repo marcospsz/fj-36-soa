@@ -1,0 +1,22 @@
+package br.com.caelum.jms;
+
+import javax.jms.ConnectionFactory;
+import javax.jms.Topic;
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class EnviaMensagemParaOTopico {
+
+	public static void main(String[] args) throws NamingException {
+		
+		InitialContext ic = new InitialContext();
+		ConnectionFactory factory = (ConnectionFactory) ic.lookup("jms/ConnectionRemoteFactory");
+		Topic topic = (Topic) ic.lookup("jms/TOPICO.LIVRARIA");
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package br.com.caelum.jms;
+
+import javax.naming.InitialContext;
+import javax.naming.NamingException;
+
+public class RegistraFinanceiroNoTopico {
+	
+	public static void main(String[] args) throws NamingException {
+		
+		InitialContext ic = new InitialContext();
+		ConnectionFactory factory = ic.lookup("jms/remoteConnectionFactory");
+		
+		
+	}
+
+}
