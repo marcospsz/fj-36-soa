@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="atualizarFre" key="selection"/>
+		<item value="jmsJndiTemplate" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="jmsJndiTemplate"/>
+			<item value="cria"/>
+			<item value="criap"/>
+			<item value="Cria"/>
+			<item value="criapaga"/>
+			<item value="criapagam"/>
 			<item value="atualizarfre"/>
 			<item value="result"/>
-			<item value="CalcPrecoPrazo"/>
-			<item value="calcPrecoPrazo"/>
-			<item value="&#x09;calcPrecoPrazo"/>
-			<item value="frete"/>
-			<item value="toke"/>
-			<item value="listar()"/>
 		</list>
 		<list key="replacehistory">
 		</list>

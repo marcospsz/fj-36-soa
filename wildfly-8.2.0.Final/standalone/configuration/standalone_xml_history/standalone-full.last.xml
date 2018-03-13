@@ -323,6 +323,8 @@
                     <security-setting match="#">
                         <permission type="send" roles="guest"/>
                         <permission type="consume" roles="guest"/>
+                        <permission type="createDurableQueue" roles="guest"/>
+                        <permission type="deleteDurableQueue" roles="guest"/>
                         <permission type="createNonDurableQueue" roles="guest"/>
                         <permission type="deleteNonDurableQueue" roles="guest"/>
                     </security-setting>
@@ -378,6 +380,9 @@
                         <entry name="java:jboss/exported/jms/FILA.GERADOR"/>
                         <durable>true</durable>
                     </jms-queue>
+                    <jms-topic name="OPICO.LIVRARIA">
+                        <entry name="java:jboss/exported/jms/TOPICO.LIVRARIA"/>
+                    </jms-topic>
                 </jms-destinations>
             </hornetq-server>
         </subsystem>
