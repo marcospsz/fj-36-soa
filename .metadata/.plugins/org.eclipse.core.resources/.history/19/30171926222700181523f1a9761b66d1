@@ -1,0 +1,14 @@
+package br.com.caelum.jaxb;
+
+public class TesteMarshalJson {
+	
+	public static void main(String[] args) {
+		
+		Livro livro = new Livro();
+		livro.setCodigo("ARQ");
+		
+		
+		
+	}
+
+}

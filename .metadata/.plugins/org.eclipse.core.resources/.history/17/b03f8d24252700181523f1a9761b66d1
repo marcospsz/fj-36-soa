@@ -1,0 +1,27 @@
+package br.com.caelum.livraria.jaxb;
+
+import java.io.StringWriter;
+
+import javax.xml.bind.JAXBContext;
+
+import com.sun.xml.internal.ws.util.Pool.Marshaller;
+
+import br.com.caelum.livraria.modelo.Pedido;
+
+public class SerializadorXml {
+	
+	public String toXml(Pedido pedido) {
+//		//aqui vem o codigo do marshaller
+		try{
+			
+			Marshaller marshaller = JAXBContext.newInstance(Pedido.class).createMarshaller();
+			StrigWriter stringWriter = new StringWriter() ;
+			
+			
+			
+		}
+		
+	}
+	
+	
+}

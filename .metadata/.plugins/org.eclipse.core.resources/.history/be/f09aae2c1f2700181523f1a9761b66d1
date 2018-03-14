@@ -1,0 +1,21 @@
+package br.com.caelum.jaxb;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.transform.Result;
+
+public class TesteGeraSchema {
+	
+	public static void main(String[] args) throws Exception	{
+		JAXBContext	context	= JAXBContext.newInstance(Livro.class);
+		context.generateSchema(new SchemaOutputResolver() {
+			@Override
+			public Result createOutput(String namespaceUri,
+				    String	suggestedFileName) throws IOException	{
+				StreamResult result	= new StreamResult(new File("schema.xsd"));
+				return	result;
+			}
+		});
+}
+
+
+}

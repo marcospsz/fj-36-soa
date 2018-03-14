@@ -13,8 +13,13 @@ import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
 
 @Entity
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Pedido implements Serializable {
 
 	private static final long serialVersionUID = 1L;
@@ -31,6 +36,22 @@ public class Pedido implements Serializable {
 	@OneToOne(cascade=CascadeType.PERSIST)
 	@JoinColumn(unique=true)
 	private Pagamento pagamento;
+		
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
+	public Pagamento getPagamento() {
+		return pagamento;
+	}
 
 	public void setItens(Set<ItemCompra> itens) {
 		this.itens = itens;

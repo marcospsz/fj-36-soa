@@ -1,0 +1,21 @@
+package br.com.caelum.jaxb;
+
+import java.io.File;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class TesteMarshalJson {
+	
+	public static void main(String[] args) {
+		
+		Livro livro = new Livro();
+		livro.setCodigo("ARQ");
+		
+		ObjectMapper mapper = new ObjectMapper();
+		
+		mapper.writeValue(new File file("livro.json"), livro);
+		
+		
+	}
+
+}
