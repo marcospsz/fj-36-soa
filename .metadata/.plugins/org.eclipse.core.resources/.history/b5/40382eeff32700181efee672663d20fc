@@ -1,0 +1,24 @@
+package br.com.caelum;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.RoutesBuilder;
+import org.apache.camel.impl.DefaultCamelContext;
+
+public class TestePolling {
+	
+	public static void main(String[] args) {
+		
+		CamelContext ctx = new DefaultCamelContext();
+		
+		ctx.addRoutes(new RoutesBuilder(){
+			public void configure(){
+				from("http://localhost:8088/fj36-livraria/loja/livros/mais-vendidos")
+				.delay(1000);
+				
+			}
+		}
+				);
+		
+	}
+
+}

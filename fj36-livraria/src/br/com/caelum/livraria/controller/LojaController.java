@@ -4,11 +4,17 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.ws.rs.core.MediaType;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import com.thoughtworks.xstream.XStream;
+import com.thoughtworks.xstream.io.json.JettisonMappedXmlDriver;
 
 import br.com.caelum.livraria.modelo.Livro;
 
@@ -18,6 +24,21 @@ public class LojaController {
 
 	@PersistenceContext
 	EntityManager entityManager;
+	
+	@ResponseBody
+	@RequestMapping(value="/livros/mais-vendidos",	
+	method=RequestMethod.GET,
+	produces=MediaType.APPLICATION_JSON)
+	public String livrosMaisVendidos(){
+		
+		List<Livro> livrosMaisVendidos = this.entityManager.createQuery(
+				"select	livro from Livro livro", Livro.class).getResultList();
+		
+		XStream xstream = new XStream(new JettisonMappedXmlDriver());
+		String json = xstream.toXML(livrosMaisVendidos) ;
+		return json ;
+		
+	}
 	
 	@RequestMapping("/livro")
 	public String form(@RequestParam(value="id", required=true) Integer id, Model modelo) {

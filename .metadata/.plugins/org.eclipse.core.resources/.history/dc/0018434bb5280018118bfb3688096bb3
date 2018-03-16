@@ -1,0 +1,31 @@
+package br.com.caelum.livraria.camel;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+import org.apache.camel.CamelContext;
+import org.apache.camel.builder.RouteBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class ConfiguracaoCamel {
+	
+	@Autowired
+	private CamelContext context ;
+
+	@PostConstruct
+	void init() throws Exception {
+		
+		context.addRoutes(new RouteBuilder(){
+			
+		}) ;
+
+	}
+	
+	@PreDestroy
+	void destroy() throws Exception {
+
+	}
+
+}
